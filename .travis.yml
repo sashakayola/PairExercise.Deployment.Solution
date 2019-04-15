@@ -21,6 +21,6 @@ before_deploy:
 deploy:
   skip_cleanup: true # prevents travis from deleting the build
   provider: heroku
-  app: YOUR-HEROKU-APP-NAME-HERE # see README
+  app: sashasverycoolapp # see README
   api_key:
-    secure: YOUR-***ENCRYPTED***-API-KEY-HERE
+    secure: X3ugj6/3qxjhYwgIbKlItW7cpqwlHV92RqhrtlF+7N7lwTfp+G/7E2IHBHesSBM7O3fg3Xo0KK0GSpwL9c3xGDGxLcfh3Ot2IEsCPzgrOeZpyf8FGZj+CMDlggDZ1uKkarZjhw3BGDN6Z2UVWl5QbXdXnjR81ZbJ9bVd4K6B3GP23vk2X52+IuzYC/O6/fQU1+dx13AwqIvG4yR/T/sW2bxhgyS5WzYBP8cUZe2uPsJ3e7vemcIFouhVXLHwtFKZgniRUrSSLDFSUyfh6trYcp/DrC1bGaZRehcu8bYmVNBTLtgX+2T8+ci18Vx5+pbJ80Zs89HMLJokJKM2TaFNyQBd+q3pnBBSfPEkUxsOhWNIuzm4Mr9ecwZ7q3NS3ME5moBxFEH5bulm9hBZktsV66sr3xHwNXe28BLKF/xH2uoOQXZPWNGM7W/WlWqRLwfkjOevs/o2XuG9NOB6og6n4fjHaZ4+5XU2B1fh/9SmZjngiuW0qe6VQC9iW90NQXWg30eUwRsPj6YMbAFwEzQVPUWp8ftm9P3Kkf1C9/5gg2s2mbP/sbgJcbfnr8sSuoZmAZl4BCCQLZJLUbajY4hYcthPHzk7QWOMT47zhddV4DWv/3Oo69I1iY/TDbYB6ab9sJCr4IU3M3uLS4D1fVZ4QAo1WK9ir7xCu/P1WqTmz1w=
